@@ -6,46 +6,46 @@ var licenseLogo = '';
 const generateREADME = ({projectTitle, description, installInfo, usageInfo, contributionInfo, license, testInfo, githubName}) => {
   shieldGenerator(license);
     return `
-    # ${projectTitle}
-  
-    ## Description
-    ![License Logo](${licenseLogo})
-    ${description}
-  
-    #Table of Contents
+# ${projectTitle}
 
-    - [Installation](#installation)
-    - [Usage](#usage)
-    - [Credits](#credits)
-    - [License](#license)
-    - [Tests](#tests)
-    - [Questions](#questions)
+## Description
+![License Logo](${licenseLogo})
+${description}
 
-    ## Installation
-    
-    ${installInfo}
-    
-    ## Usage
-    
-    ${usageInfo}
-    
-    ## Credits
-    
-    ${contributionInfo}
-    
-    ## License
-    
-    ${license}
+#Table of Contents
 
-    ## Tests
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
+- [Tests](#tests)
+- [Questions](#questions)
 
-    ${testInfo}
+## Installation
 
-    ## Questions
+${installInfo}
 
-    Please check out my Github, and message me for any issues, suggestions, or questions!
+## Usage
 
-    https://github.com/${githubName}
+${usageInfo}
+
+## Credits
+
+${contributionInfo}
+
+## License
+
+${license}
+
+## Tests
+
+${testInfo}
+
+## Questions
+
+Please check out my Github, and message me for any issues, suggestions, or questions!
+
+https://github.com/${githubName}
     `
 
 }
