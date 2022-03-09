@@ -1,8 +1,9 @@
-# National Park Project
+
+# Employee Tracker
 
 ## Description
 ![License Logo](https://img.shields.io/badge/license-MIT-green)
-a map and search bar to find national parks
+This npm app will allow you see departments, employees, and roles in an organized format.  You can also freely change any of the entries to update the database.
 
 #Table of Contents
 
@@ -15,15 +16,15 @@ a map and search bar to find national parks
 
 ## Installation
 
-no instlal needed.  just open the webpage and begin.
+all dependencies are already listed in the package.json.  Run npm install, and all the needed software will be installed.
 
 ## Usage
 
-use the search bar to find what park you are looking for.  a map below is available for a visual pick.
+After running the app (npm start), you can then choose where you want to go. When adding or updating, you will be given options and inputs for entry.
 
 ## Credits
 
-Daniel Holland, Nicco Eck, Jay Moses, and Carlos Castillo
+Daniel Holland, with inspiration from https://github.com/nicolewallace09/employee-tracker/blob/master/server.js
 
 ## License
 
@@ -31,7 +32,7 @@ MIT
 
 ## Tests
 
-No links currently
+
 
 ## Questions
 
